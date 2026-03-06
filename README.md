@@ -1,28 +1,28 @@
-# Task 3 - CONTACT Phonebook
+# Задание 3 — Телефонная книга CONTACT
 
-## Overview
+## Обзор
 
-Console application for managing a phonebook (BLOCKNOTE) using CONTACT structures in C.
-Variant 37.
+Консольное приложение для управления телефонной книгой (BLOCKNOTE)
+с использованием структуры CONTACT на языке C. Вариант 37.
 
-## Author
+## Автор
 
 anichkay
 
-## Usage
+## Использование
 
 ```bash
 make
 ./bin/phonebook
 ```
 
-The program will:
-1. Ask to input contacts (name, phone, birth date)
-2. Sort contacts by birth date (ascending)
-3. Display all contacts
-4. Search for a contact by phone number
+Программа выполняет:
+1. Ввод контактов с клавиатуры (фамилия и инициалы, телефон, дата рождения)
+2. Сортировку контактов по дате рождения (по возрастанию)
+3. Вывод всех контактов на экран
+4. Поиск контакта по номеру телефона
 
-## Additional Notes
+## Дополнительные замечания
 
-- Project follows CIS (Client-Interface-Server) model
-- Built with `make`, CI via GitHub Actions
+- Проект построен по модели КИС (Клиент-Интерфейс-Сервер)
+- Сборка через `make`, CI через GitHub Actions
